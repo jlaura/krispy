@@ -1,4 +1,4 @@
-pysalREST
+Krispy
 =============================
 This repository contains an automated Python library extraction tool originally developed to expose the PySAL library as a RESTful service.  Conceptually, we sought to introspect the entirety of our code base and expose each function and class as a RESTful endpoint.  As the project evolved, we added the ability to interface with a server side database, ingest external data sources via HREFs, and curate the functionality to be exposed.
 
@@ -94,4 +94,4 @@ For initial testing, we suggest running a localhost, cherrypy based server.  Thi
 
 To do this, modify config.py, setting the host parameter equal to localhost and the port to some currently unused port.  Finally, execute `python run.py`.
 
-On run, pysalREST will introspect your code base and extraction documentation.  Classes and functions for which documentation extraction fails will print an error message to the terminal.
+On run, Krispy will introspect your code base and extraction documentation.  Classes and functions for which documentation extraction fails will print an error message to the terminal.
